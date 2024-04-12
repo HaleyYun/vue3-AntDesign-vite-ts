@@ -1,0 +1,214 @@
+.main-content {
+    border-radius: 15px;
+    padding: 15px;
+
+    min-height: calc(100vh - 93px);
+
+    background: #fff;
+}
+
+.ant-modal-header {
+    display: flex;
+    justify-content: center;
+}
+
+.ant-table-thead>tr>th {
+    font-weight: 600 !important;
+}
+
+.p-box {
+    p {
+        font-size: 75px;
+        color:#000;
+        margin-bottom: 0px !important;
+        height: 80px;
+        line-height: 80px;
+        text-align: right;
+    }
+
+}
+
+//表格文字加粗
+.subscribe-list {
+    .ant-table-cell {
+        font-size: 13px !important;
+        font-weight: 400;
+        color: #a19e9c;
+    }
+}
+
+.one-title {
+    text-align: center !important;
+    font-size: 40px !important;
+    margin-bottom: 0.5em !important;
+}
+
+.ant-table-thead>tr>th {
+    border-bottom: none;
+}
+
+.ant-table-thead>tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    width: 0px;
+}
+
+//title
+.universal-title {
+    display: block;
+    position: relative;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #222222;
+    line-height: 20px;
+    padding-left: 10px;
+
+    &::after {
+        content: "";
+        display: block;
+        width: 4px;
+        height: 11px;
+        background: #3D7EFF;
+        border-radius: 22px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+}
+
+.two-universal-title {
+    display: block;
+    position: relative;
+    height: 22px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #222222;
+    line-height: 22px;
+    padding-left: 18px;
+
+    &::after {
+        content: "";
+        display: block;
+        width: 18px;
+        height: 22px;
+        background: url(/src/assets/images/ReportResult/report_05.png) no-repeat;
+        background-size: 18px 22px;
+        position: absolute;
+        top: 1px;
+        left: 0;
+        // transform: translateY(-50%);
+    }
+}
+
+.ant-modal-header {
+    border-radius: 10px 10px 0 0;
+}
+
+.ant-modal-content {
+    border-radius: 10px;
+}
+
+.step-btn-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    &>span {
+        &:nth-child(1) {
+            margin-right: 30px;
+            background: #F7F8FA;
+            color: #222;
+        }
+    }
+}
+
+.step-btn {
+    display: block;
+    margin: 0 auto;
+    width: 286px;
+    line-height: 50px;
+    background: #3D7EFF;
+    border-radius: 28px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 5px;
+    cursor: pointer;
+
+    &.single {
+        position: fixed;
+        transform: translateX(-50%);
+        bottom: 40px;
+        left: 50%;
+    }
+}
+
+.ant-table-thead>tr>th {
+    border-bottom: none;
+    font-size: 12px;
+    padding: 10px;
+}
+
+// 空状态
+.empty-status {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-pagination-item-active a {
+    color: #fff;
+    background: #1890ff;
+    border-color: #1890ff;
+}
+
+.ant-pagination-item:hover {
+    color: #fff;
+    border-color: #1890ff;
+    transition: all 0.3s;
+    border-color: #1890ff;
+}
+.ant-pagination-item:focus-visible a{
+    color: #fff;
+}
+.ant-pagination-item:focus-visible {
+    border-color: #1890ff;
+    background-color: #1890ff;
+    transition: all 0.3s;
+}
+.ant-pagination-item a:active {
+    color: #fff;
+}
+.ant-pagination-item a:hover {
+    color: #fff;
+}
+
+// .ant-pagination-item-active {
+//     font-weight: 500;
+//     color: #fff;
+//     background: #1890ff;
+//     border-color: #1890ff;
+// }
+
+
+
+/* 整个滚动条 */
+*::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    background-color: rgb(165, 169, 170);
+}
+
+/* 滚动条上的滚动滑块 */
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(217, 214, 216);
+    border-radius: 3px;
+}
+
+/* 滚动条轨道 */
+*::-webkit-scrollbar-track {
+    background-color: rgb(239, 237, 238);
+}
